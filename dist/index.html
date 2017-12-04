@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Lazy Load</title>
+        <link rel="stylesheet" href="app.css">
+    </head>
+    <body>
+        <h1>Hello</h1>
+        <div>
+            <img class="lazy-load" src="images/test-small.jpg" data-src="/images/test@2x.jpg" width="2000" height="1335" alt="">
+        </div>
+        <div style="height: 100vh"></div>
+        <div>
+            <img class="lazy-load" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="/images/test2.jpg" width="300" height="300" alt="">
+        </div>
+    </body>
+
+    <script src="app.js"></script>
+</html>
